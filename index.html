@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <header class="fixed">
+    <h1>Landing Page</h1>
+    <ul>
+      <li><a href="/home">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact">Contact us</a></li>
+    </ul>
+    <form target="/search"></form>
+      <input name="q" type="search" />
+      <input type="submit" />
+      
+    </form>
+  </header>
+
+
+  <body>
+  <img src="https://images.pexels.com/photos/6357/coffee-cup-desk-pen.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="Uh ohhh this broken">  
+  <div class="container">   
+  <form action="action_page.php">
+  <label for="fname">First and Last Name</label>
+  <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  <label for="lname">Email</label>
+  <input type="text" id="lname" name="lastname" placeholder="Your Email Here...">
+  <label for="country">Country</label>     <select id="country" name="country">
+    <option value="australia">Australia</option>
+    <option value="canada">Canada</option>
+    <option value="usa">USA</option>     
+  </select>      
+      <label for="subject">Message</label>     <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>      <input type="submit" value="Submit">    </form> </div>
+  </body>
+
+<footer>
+  <p>Author: Our Group<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+ 
+  </footer>
+
+</html>
